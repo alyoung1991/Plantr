@@ -1,0 +1,19 @@
+{
+  "name": "plantr",
+  "version": "1.0.0",
+  "description": "Plant health tracker web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyoung1991/Plantr.git"
+  },
+  "author": "Alberto Young, Trevor Jenkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alyoung1991/Plantr/issues"
+  },
+  "homepage": "https://github.com/alyoung1991/Plantr#readme"
+}
