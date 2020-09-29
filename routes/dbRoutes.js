@@ -74,27 +74,27 @@ function logDebug(status, command, err) {
         switch(command) {
             case 'CREATE':
                 console.log(process.env.ERROR);
-                console.log("\tError retrieving data... " + err);
+                console.log(`\tError creating data... ${err}`);
                 break;
             case 'READ':
                 console.log(process.env.ERROR);
-                console.log("\tError retrieving data... " + err);
+                console.log(`\tError retrieving data... ${err}`);
                 break;
             case 'UPDATE':
                 console.log(process.env.ERROR);
-                console.log("\tError updating data... " + err);
+                console.log(`\tError updating data... ${err}`);
                 break;
             case 'DELETE':
                 console.log(process.env.ERROR);
-                console.log("\tError deleting data... " + err);
+                console.log(`\tError deleting data... ${err}`);
                 break;
             case 'INSERT':
                 console.log(process.env.ERROR);
-                console.log("\tError retrieving data... " + err);
+                console.log(`\tError inserting data... ${err}`);
                 break;
             case 'DROP':
                 console.log(process.env.ERROR);
-                console.log("\tError dropping table... " + err);
+                console.log(`\tError dropping table... ${err}`);
                 break;
         }
     }
@@ -127,7 +127,7 @@ function logDebug(status, command, err) {
                 break;
             default:
                 console.log("No usable case for status, command in logDebug().");
-                console.log("Given status: " + status + ", command: " + command);
+                console.log(`Given status: ${status}, command: ${command}`);
         }
     }
 }
