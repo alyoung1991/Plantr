@@ -1,4 +1,5 @@
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
+const User = require('../models/User');
 
 // create google strategy with passport
 module.exports = function(passport) {
@@ -31,9 +32,11 @@ module.exports = function(passport) {
         done(null, user);
     });
     
-    passport.deserializeUser(function(id, done) {
-        User.findById(id, function(err, user) {
-            done(err, user);
-        });
+    passport.deserializeUser(function(user, done) {
+        done(null, user);
+        // TODO - add user data to database?
+        // User.findById(id, function(err, user) {
+        //     done(err, user);
+        // });
     });
 }

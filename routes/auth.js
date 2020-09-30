@@ -11,11 +11,18 @@ router.get('/google', passport.authenticate('google', {scope: ['profile']}));
 router.get('/google/callback', 
     passport.authenticate('google',
     // failure redirects to index page
-    {fauilureRedirect: '/'}), 
+    {failureRedirect: '/'}), 
     // success redirects to landing page
     (req, res) => {
         res.redirect('/landing');
     }
 );
+
+// @desc        logout user
+// @route       GET /auth/logout
+router.get('/logout', (req, res) => {
+    req.logout();
+    res.redirect('/');
+});
 
 module.exports = router;

@@ -74,27 +74,27 @@ function logDebug(status, command, err) {
         switch(command) {
             case 'CREATE':
                 console.log(process.env.ERROR);
-                console.log(`\tError creating data... ${err}`);
+                console.error(`\tError creating data... ${err}`);
                 break;
             case 'READ':
                 console.log(process.env.ERROR);
-                console.log(`\tError retrieving data... ${err}`);
+                console.error(`\tError retrieving data... ${err}`);
                 break;
             case 'UPDATE':
                 console.log(process.env.ERROR);
-                console.log(`\tError updating data... ${err}`);
+                console.error(`\tError updating data... ${err}`);
                 break;
             case 'DELETE':
                 console.log(process.env.ERROR);
-                console.log(`\tError deleting data... ${err}`);
+                console.error(`\tError deleting data... ${err}`);
                 break;
             case 'INSERT':
                 console.log(process.env.ERROR);
-                console.log(`\tError inserting data... ${err}`);
+                console.error(`\tError inserting data... ${err}`);
                 break;
             case 'DROP':
                 console.log(process.env.ERROR);
-                console.log(`\tError dropping table... ${err}`);
+                console.error(`\tError dropping table... ${err}`);
                 break;
         }
     }
