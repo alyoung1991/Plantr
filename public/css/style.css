@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/succulents.jpg");
+
+    justify-content: center;
+    height: 100vh;
+}
+
+.login_container {
+    background-color: rgba(0, 0, 0, .0);
+    justify-content: center;
+    align-self: center;
+    
+    width: 50vw;
+    height: 100%;
+}
+
+.oauth_container {
+    background-color: snow;
+
+    border: outset;
+    border-width: .15em;
+    border-radius: .25em;
+}
+
+/* button styles */
+.google_auth_btn {
+    color: snow;
+    background-color: tomato;
+
+    font-size: 1em;
+    font-weight: 550;
+
+    text-transform: uppercase;
+}
