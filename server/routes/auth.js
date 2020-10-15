@@ -10,8 +10,9 @@ router.get('/google', passport.authenticate('google', {scope: ['profile']}));
 // @route       GET /auth/google/callback
 router.get('/google/callback', 
     passport.authenticate('google',
-    // failure redirects to index page
-    {failureRedirect: '/'}), 
+        // failure redirects to index page
+        {failureRedirect: '/'}
+    ), 
     // success redirects to landing page
     (req, res) => {
         res.redirect('/landing');
