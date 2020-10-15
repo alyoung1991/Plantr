@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Axios from 'axios';
 
 function App() {
   const [plants, setPlants] = useState([]);
@@ -14,6 +15,12 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
+  }, []);
+
+  useEffect(() => {
+    Axios.get('http://localhost:5000/db/read').then((response) => {
+      setPlants(response.data);
+    })
   }, []);
 
   return (
