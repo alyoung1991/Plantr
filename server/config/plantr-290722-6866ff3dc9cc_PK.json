@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "plantr-290722",
+  "private_key_id": "6866ff3dc9cc9a17a22bd4d0d1bfb4d759ca6b8d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCPrYunoIdrj0Yo\nwZQY+PbyqEL5dG9nneRd4u2wJt1yS8Xu1Yd/V7LIgaMQHNk2jcJpcHLMFqyMLlkc\nBjPszamt0YyPLps3LjqqRI+TT7qW4zgY4F7o6qasRyz7qSa3RHygW4yuBZzrLmLI\njrajISET9RTDov97BjEZjFyG49YLyflse024gBOVls/SYmChU65TYuLWtsJHLysx\niaKN5lajCy/ZWqm4z7eDZ0WIeOF/GZ9CFrH5lb3nk892JDnxV01yd/awNJQIXH18\n4XMCc5aFjlKhNoX+HAFCfuI58F10t4WNSRTKDU9FSTYe93w44Z971HG3n6pJNi7A\niV+c7/4pAgMBAAECggEAAQFJDhXVzvPNeIxeq9V5/wccSNK1ie4nhu7ib5wBaov4\n23lCnYXZqikajnhwnj7uLeyicO/ihfWlm+y3wR+Vc0Q91naQSD5jimEUHAb445a9\nTQBjpP9yoQUEuRsT8UCG9hMN3d3Cwar2ZaWbDuDHKXS4IlIzIwNPXFQ/KgQaQ6BD\nzItL49N5/6bCAZGe46S3RAT+qVY6U/41+djMrXPBG+FaKq4Ki5sb0UI7y+IcOwoh\n9A+fFGuwc8/gA7ca48mOfgeuhAvCsT3CoDJ0aoN227Fs1es2B5Y0uyNULeS0UN2s\nHX+dvccMmWIr+DMxXk0OTqHatraIymop+z6Wst5Y/QKBgQDJbicj+ADcQ2l5W8/1\nL/++uFQ4TMmSI/M55/4J7c4Ey/eB9FS74oxY8uMyyFECrA777gOZQBaKHHvvyDyw\n+eyRBa98MSzstU8QD2KJhfI15Pp5GM/yiypFDFULFGbquaCAbMBL6wpof5bQVFOA\nTwmW65RBYudwudnRT1rMlFeWowKBgQC2mhPH9VfTNf4ka8V1qoIY1oEVQMEZhH+w\neiycEyEuOZTjuastnX8f0LTx5cg8UUh30oRhDr8X/aXPyx2GPAOW7AIC00c4rLTz\nZRMIN7nPgd2BqtZzQLau77AqOoDLmf1Xwk9Kw+zAt4uCYgs3JnnMRIiC+xKmAOgm\naHy016rAwwKBgD5PTdpJkHKSg+Efrp/JHlKwEJVt43jKmCXUhvgpUO6Y7dKMc12/\ngezODcwavTyXXvc9tG1GrvJAR3JwPZ39YdmmqZdAWwZKO8/bAn9KKRfU4kpti34a\n4JOFchVAVWnMzEKN4ZpaddjHhy6gt0fcqzm9XBox7ygmxaOC6bKZPNMDAoGABnyC\np1+3tvD8Dh8l7IAaDvfPrgmW0mk6f/JXE1Q6oYG6IDzAL+agVWj8hHs9Gadpg5ge\ny7PSZe/ErBTy/4myNvI7QA5xQTohU2QLwQb5ur1KOQjwhTePRbeN8nIRkSnvLebh\nGi7Lgi0C76a770GWogLtNnnkt7Dgjjy38VSX5DECgYEAsyabP6uyB4DApfVjCM3M\nEi0FJJCT8j59e0qcFg6qdH0J4VdD0bDqkCcNcoGyeCkemNUeUX+3cxtFQAsVOdDX\nzUcCL6XabYrrqFJp4zLOT9Y7tTMDR0eKd0w9HXnS5MamFRO0wyMtYWkcRn1KpunW\n0beUDIdwtDUC/3z3ivueh90=\n-----END PRIVATE KEY-----\n",
+  "client_email": "jenkins-young-llc@plantr-290722.iam.gserviceaccount.com",
+  "client_id": "105200222907787534989",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jenkins-young-llc%40plantr-290722.iam.gserviceaccount.com"
+}

@@ -16,15 +16,18 @@ app.use(session({
 }));
 
 // Passport middleware
+/*
 app.use(passport.initialize());
 app.use(passport.session());
+*/
 
 const dbRoutes = require("./routes/dbRoutes");
 
 // Load config setup
-dotenv.config({path: './config/.env'});
+dotenv.config({path: 'server/config/.env'});
+/*
 require('./config/passport')(passport);
-
+*/
 
 app.use(bodyParser.json());
 
@@ -33,7 +36,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use("/", require("./routes/index"));
+/*
 app.use("/auth", require("./routes/auth"));
+*/
 
 // Template engine
 app.engine('.hbs', exphbs({defaultLayout: 'main', extname: '.hbs'}));
